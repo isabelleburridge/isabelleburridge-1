@@ -6,6 +6,7 @@ p {
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
+	text-align: center;
 }
 
 .italic {
@@ -14,18 +15,23 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+		text-align: center;
 }
 
 h1 {
 	font-size: 2.5rem;
+	text-align: center;
 }
 
 h2 {
 	font-size: 1.5rem
+	text-align: center;
+
 }
 
 body{
 	background-color:#ebe3ce;
+	text-align: center;
 }
 
 #container{
@@ -48,8 +54,8 @@ body{
 
 #nav a:link, a:visited {
 	display:block;
-    color: #ffffff;
-    background-color: #98bf21;
+    color: black;
+    background-color: #pink;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
