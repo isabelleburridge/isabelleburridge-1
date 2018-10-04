@@ -16,11 +16,12 @@ p {
     font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
 		font-size: 1rem; /* 1rem is about the same as size 16 it should never be smaller then that */
 		line-height: 1.4rem;
-		color: black; 
+		color: black;
 }
 
 h1 {
     font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+		color: rgba(255, 255, 255, .6);
 }
 
 .italic{
@@ -80,4 +81,17 @@ body{
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
+}
+
+.nav ul {
+display: flex;
+flex-direction: column;
+}
+
+@media (min-width: 600px) {
+
+	.nav ul {
+		flex-direction: row;
+		justify-content: center;
+	}
 }
